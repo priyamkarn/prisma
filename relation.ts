@@ -1,3 +1,5 @@
+//  user        User    @relation(fields: [userId], references: [id])  
+
 import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
